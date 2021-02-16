@@ -1,5 +1,5 @@
 .header {
-  background-color: orange;
+  background-color: $color-primary;
   @media all and(min-width:1024px) {
     display: flex;
     justify-content: space-around;
@@ -19,16 +19,16 @@
     align-items: center;
     list-style: none;
     padding: 25px;
-    background-color: red;
+    background-color: $color-secondary;
     @media all and(min-width:1024px) {
       padding: 10px 25px;
     }
     &--list:hover {
-      background-color: lightcoral;
+      background-color: $color-quaternaryHover;
       cursor: pointer;
     }
     &--link {
-      color: white;
+      color: $color-main;
       text-decoration: none;
     }
   }

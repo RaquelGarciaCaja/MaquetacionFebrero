@@ -1,0 +1,17 @@
+.main {
+  @media all and(min-width:1024px) {
+    display: flex;
+  }
+  &__sections {
+    display: flex;
+    flex-direction: column;
+    // align-content: center;
+    // justify-content: center;
+  }
+  &__section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+}
