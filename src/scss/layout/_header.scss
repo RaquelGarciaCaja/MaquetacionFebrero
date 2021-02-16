@@ -4,11 +4,13 @@
     display: flex;
     justify-content: space-around;
   }
+
   &__container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px;
+    font-size: 20px;
   }
   &__containerImg {
     margin-right: 10px;
@@ -18,14 +20,20 @@
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    padding: 25px;
     background-color: $color-secondary;
     @media all and(min-width:1024px) {
-      padding: 10px 25px;
+      margin: 35px;
+      width: 400px;
     }
-    &--list:hover {
-      background-color: $color-quaternaryHover;
-      cursor: pointer;
+
+    &--list {
+      padding: 12px 50px;
+      @media all and(min-width:1024px) {
+        padding: 12.5px 30px;
+      }
+      &:hover {
+        background-color: $color-quaternaryHover;
+      }
     }
     &--link {
       color: $color-main;
