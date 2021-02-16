@@ -1,4 +1,6 @@
 .footer {
+  // position: sticky;
+  // bottom: 0;
   background-color: $color-primary;
   display: flex;
   flex-direction: column;
@@ -11,24 +13,25 @@
   }
 
   &__containerMenu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     list-style: none;
-    padding: 20px 8px;
-    width: 400px;
-    background-color: $color-secondary;
-    @media all and(min-width:1024px) {
-      width: 250px;
-      padding: 15px 8px;
-    }
+    background: $color-secondary;
+    max-width: 1000px;
+    text-align: center;
 
-    &--list:hover {
-      background-color: $color-quaternaryHover;
+    &--list {
+      display: inline-block;
     }
     &--link {
-      color: $color-main;
       text-decoration: none;
+      color: $color-main;
+      padding: 10px 30px;
+      display: block;
+      &:hover {
+        background-color: $color-quaternaryHover;
+      }
+      @media all and(min-width:1024px) {
+        display: inline-block;
+      }
     }
   }
   &__containerSocial {

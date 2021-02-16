@@ -16,28 +16,26 @@
     margin-right: 10px;
   }
   &__containerMenu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     list-style: none;
-    background-color: $color-secondary;
-    @media all and(min-width:1024px) {
-      margin: 35px;
-      width: 400px;
-    }
+    background: $color-secondary;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
 
     &--list {
-      padding: 12px 50px;
-      @media all and(min-width:1024px) {
-        padding: 12.5px 30px;
-      }
+      display: inline-block;
+    }
+    &--link {
+      text-decoration: none;
+      color: $color-main;
+      padding: 10px 50px;
+      display: block;
       &:hover {
         background-color: $color-quaternaryHover;
       }
-    }
-    &--link {
-      color: $color-main;
-      text-decoration: none;
+      @media all and(min-width:1024px) {
+        display: inline-block;
+      }
     }
   }
 }
