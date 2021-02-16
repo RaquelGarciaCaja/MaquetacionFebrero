@@ -1,3 +1,35 @@
 .header {
   background-color: orange;
+  @media all and(min-width:1024px) {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  &__containerImg {
+    margin-right: 10px;
+  }
+  &__containerMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 25px;
+    background-color: red;
+    @media all and(min-width:1024px) {
+      padding: 10px 25px;
+    }
+    &--list:hover {
+      background-color: lightcoral;
+      cursor: pointer;
+    }
+    &--link {
+      color: white;
+      text-decoration: none;
+    }
+  }
 }
