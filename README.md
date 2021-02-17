@@ -1,6 +1,6 @@
 ### Maquetación
 
-Objetivo: Prueba de maquetación 
+Objetivo: Prueba de maquetación. 
 Herramientas usadas: HTML5 y SCSS
 
 ## Guía de inicio rápido
