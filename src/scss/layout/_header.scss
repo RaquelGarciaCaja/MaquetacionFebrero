@@ -2,14 +2,14 @@
   background-color: $color-primary;
   @media all and(min-width:1024px) {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   &__container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 10px 70px;
     font-size: 20px;
   }
   &__containerImg {
