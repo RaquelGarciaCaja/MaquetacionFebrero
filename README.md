@@ -8,18 +8,15 @@ Herramientas usadas: HTML5 y SCSS
 > **NOTA:** Necesario tener instalado [Node JS](https://nodejs.org/)
 
 ## Instalación 🔧
+
+para ponerlo en marcha en su dispositivo
 ```bash
 npm install: 
 ```
-para ponerlo en marcha en su dispositivo.
 
+para arrancar el proyecto
 ```bash
 npm start: 
-```
-para arrancar el proyecto.
-
-```bash
-npm run docs: 
 ```
 
 ## La estructura de carpetas:
