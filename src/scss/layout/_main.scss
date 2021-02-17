@@ -1,9 +1,9 @@
 .main {
-  min-height: calc(100vh - 94px - 44px);
   padding: 0 0;
   background-color: $color-main;
 
   @media all and(min-width:500px) {
+    min-height: calc(100vh - 94px - 44px);
     padding: 0 70px;
     background-color: lightgray;
     display: flex;
