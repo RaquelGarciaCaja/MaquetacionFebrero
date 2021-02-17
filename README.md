@@ -22,7 +22,7 @@ para arrancar el proyecto.
 npm run docs: 
 ```
 
-## La estructura de carpetas tiene esta pinta:
+## La estructura de carpetas:
 
 ```
 src
