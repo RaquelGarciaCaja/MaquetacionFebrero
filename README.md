@@ -9,14 +9,14 @@ Herramientas usadas: HTML5 y SCSS
 
 ## Instalación 🔧
 
-para ponerlo en marcha en su dispositivo
+para ponerlo en marcha en su dispositivo:
 ```bash
-npm install: 
+npm install
 ```
 
-para arrancar el proyecto
+para arrancar el proyecto:
 ```bash
-npm start: 
+npm start
 ```
 
 ## La estructura de carpetas:
